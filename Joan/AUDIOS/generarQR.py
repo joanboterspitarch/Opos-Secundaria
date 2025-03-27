@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 import os
 
 # Nombre del archivo con los enlaces
-archivo_enlaces = "enlaces drive.txt"
+archivo_enlaces = "./enlaces drive.txt"
 
 # Leer el archivo y procesar los enlaces
 with open(archivo_enlaces, "r", encoding="utf-8") as f:
